@@ -135,21 +135,17 @@ const App = () => (
       <footer>
         <div className="grid">
           <section>
+            <div className="filials">
+              <h3>Filiale Kurfürstendamm</h3>
+              <p>Uhlandstraße 28, 10719 Berlin<br />030 889 25 666</p>
+            </div>
+            <div className="tel">
+              <h3>Filiale Prenzlauer Berg</h3>
+              <p>Schönhauser Allee 48, 10437 Berlin<br />030 443 57 770</p>
+            </div>
             <div className="hours">
               <h3>Öffnungszeiten</h3>
               <p>Mo-Fr: 10:00 - 19.00<br />Sa: 11:00 - 17:00</p>
-            </div>
-            <div className="filials">
-              <h3><Link to="/unsere-filialen">Unsere Filialen</Link></h3>
-              <p>Uhlandstraße 28, 10719 Berlin<br />
-              Schönhauser Allee 48, 10437 Berlin
-              </p>
-            </div>
-            <div className="tel">
-              <h3>Call to us</h3>
-              <p>030 889 25 666<br />
-              030 889 25 666
-              </p>
             </div>
           </section>
         </div>

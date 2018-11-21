@@ -11,6 +11,9 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "chokidar": "^2.0.4",
+    "htmr": "^0.7.0",
+    "jdown": "^0.6.6",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-router": "^4.2.0",

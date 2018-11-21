@@ -1,13 +1,44 @@
-import axios from 'axios'
 import React, { Component } from 'react'
 import { ServerStyleSheet } from 'styled-components'
+
+import { reloadRoutes } from 'react-static/node'
+import jdown from 'jdown'
+import chokidar from 'chokidar'
+
+chokidar.watch('content').on('all', () => reloadRoutes())
 
 export default {
   getSiteData: () => ({
     title: 'React Static',
   }),
   getRoutes: async () => {
-    const { data: posts } = await axios.get('https://jsonplaceholder.typicode.com/posts')
+
+    const phonesPages = await jdown('content/phones')
+
+    const phonesRoutes = Object.keys(phonesPages).map(page => ({
+      path: `/${phonesPages[page].slug}`,
+      component: 'src/containers/Phone',
+      getData: () => ({
+        data: phonesPages[page],
+      }),
+    }));
+
+    console.log('/// phonesRoutes: ', phonesRoutes)
+
+    //
+    // for (const phone in phones) {
+    //   console.log('/// phone: ', phones[phone]);
+    //   phonesRoutes.push({
+    //     path: `/${phone.slug}`,
+    //     component: 'src/containers/Phone',
+    //     getData: () => ({
+    //       phone,
+    //     }),
+    //   });
+    // }
+    //
+    // console.log('/// phonesRoutes: ', phonesRoutes);
+
     return [
       {
         path: '/',
@@ -18,19 +49,17 @@ export default {
         component: 'src/containers/IphoneReparaturPreise',
       },
       {
+        path: '/faq',
+        component: 'src/containers/Faq',
+      },
+      {
         path: '/andere',
         component: 'src/containers/Andere',
         getData: () => ({
           posts,
         }),
-        children: posts.map(post => ({
-          path: `/post/${post.id}`,
-          component: 'src/containers/Post',
-          getData: () => ({
-            post,
-          }),
-        })),
       },
+      ...phonesRoutes,
       {
         is404: true,
         component: 'src/containers/404',
