@@ -14,12 +14,12 @@ export default {
         component: 'src/containers/Home',
       },
       {
-        path: '/about',
-        component: 'src/containers/About',
+        path: '/iphone_reparatur_preise',
+        component: 'src/containers/IphoneReparaturPreise',
       },
       {
-        path: '/blog',
-        component: 'src/containers/Blog',
+        path: '/andere',
+        component: 'src/containers/Andere',
         getData: () => ({
           posts,
         }),
