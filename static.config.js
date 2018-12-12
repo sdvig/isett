@@ -63,9 +63,6 @@ export default {
       {
         path: '/andere',
         component: 'src/containers/Andere',
-        getData: () => ({
-          posts,
-        }),
       },
       ...phonesRoutes,
       {
@@ -90,7 +87,7 @@ export default {
         <Html>
           <Head>
             <meta charSet="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
             {renderMeta.styleTags}
           </Head>
           <Body>{children}</Body>

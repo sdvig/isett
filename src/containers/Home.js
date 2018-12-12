@@ -20,7 +20,13 @@ const HeroBanner = styled.div`
   h1 {
     margin: 0;
     color: #fff;
-    font-size: 70px;
+    font-size: 35px;
+  }
+  @media (min-width: 480px) {
+    h1 { font-size: 50px; }
+  }
+  @media (min-width: 700px) {
+    h1 { font-size: 70px; }
   }
   .text {
     display: block;
@@ -36,7 +42,9 @@ const Services = styled.section`
   padding: 2em;
   background: #f8f8f8;
   .service {
-    flex: 1;
+    @media (min-width: 700px) {
+      flex: 1;
+    }
     margin: 0 1em;
     text-align: center;
     padding: 4em 0 2em 0;
@@ -58,14 +66,19 @@ const Services = styled.section`
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 4em 3em 0;
+    padding: 4em 0 0;
+    @media (min-width: 700px) {
+      padding: 4em 3em 0;
+    }
   }
 `
 
 const Grid = styled.div`
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
+  @media (min-width: 700px) {
+    display: flex;
+  }
 `
 
 export default withSiteData(() => (

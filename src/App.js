@@ -22,6 +22,12 @@ injectGlobal`
     color: #626262;
     background: #fff;
   }
+  @media (max-width: 700px) {
+    #root {
+      overflow-x: hidden;
+      position: relative;
+    }
+  }
 `
 
 const AppStyles = styled.div`
@@ -38,21 +44,27 @@ const AppStyles = styled.div`
   .grid {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 2em;
   }
   .content .grid {
     padding: 3em 0 6em 0;
+    @media (max-width: 700px) {
+      padding: 3em 2em 6em 2em;
+    }
   }
   footer {
     background: #434647;
     padding: 2em 0;
     section {
-      display: flex;
-      div {
-        flex: 1;
+      @media (min-width: 700px) {
+        display: flex;
+        div {
+          flex: 1;
+        }
       }
     }
     nav {
-
+      text-align: center;
     }
     .note {
       text-align: center;
@@ -71,12 +83,18 @@ const AppStyles = styled.div`
     border-top: 1px solid #7E7E7E;
     padding: 1em 0;
     .grid {
-      display: flex;
+      @media (min-width: 700px) { display: flex; }
     }
   }
   .copy {
     font-size: 15px;
-    white-space: nowrap;
+    text-align: center;
+    margin-top: 1.5em;
+    @media (min-width: 700px) {
+      flex: 1;
+      text-align: right;
+      margin-top: 0;
+    }
   }
 `
 
