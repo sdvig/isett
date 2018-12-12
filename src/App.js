@@ -4,8 +4,8 @@ import styled, { injectGlobal } from 'styled-components'
 import { hot } from 'react-hot-loader'
 //
 import Routes from 'react-static-routes'
+import Header from './components/Header'
 
-import LogoImg from './logo.png'
 
 injectGlobal`
   html {
@@ -30,31 +30,11 @@ const AppStyles = styled.div`
     color: #90c9d6;
   }
 
-  nav {
-    width: 100%;
-    white-space: nowrap;
-    a {
-      padding-right: 2rem;
-      display: inline-block;
-    }
-  }
-
   img {
     max-width: 100%;
   }
 
-  header {
 
-    padding: 2em 0;
-    background: #002434;
-    nav {
-      margin-top: .5em;
-
-    }
-    .grid {
-      display: flex;
-    }
-  }
   .grid {
     max-width: 1200px;
     margin: 0 auto;
@@ -100,35 +80,10 @@ const AppStyles = styled.div`
   }
 `
 
-const Logo = styled.div`
-  font-size: 0;
-  flex: 100%;
-  a {
-    display: block;
-    width: 248px;
-    height: 30px;
-    background-image: url(${LogoImg});
-    background-size: 100%;
-  }
-`
-
 const App = () => (
   <Router>
     <AppStyles>
-      <header>
-        <div className="grid">
-          <Logo>
-            <Link exact to="/">Home</Link>
-          </Logo>
-          <nav>
-            <Link to="/iphone_reparatur_preise">iPhone Preise</Link>
-            <Link to="/andere">Andere Geräte Preise</Link>
-            <Link to="/faq">FAQ</Link>
-            <Link to="/unsere-filialen">Unsere Filialen</Link>
-            <Link to="/kontakt">Kontakt</Link>
-          </nav>
-        </div>
-      </header>
+      <Header />
       <div className="content">
         <Routes />
       </div>

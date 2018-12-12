@@ -53,6 +53,14 @@ export default {
         component: 'src/containers/Faq',
       },
       {
+        path: '/kontakt',
+        component: 'src/containers/Contact',
+      },
+      {
+        path: '/unsere-filialen',
+        component: 'src/containers/Filialen',
+      },
+      {
         path: '/andere',
         component: 'src/containers/Andere',
         getData: () => ({
