@@ -13,31 +13,21 @@ export default {
   }),
   getRoutes: async () => {
 
-    const phonesPages = await jdown('content/phones')
+    let routes = [];
+    const content = await jdown('content')
 
-    const phonesRoutes = Object.keys(phonesPages).map(page => ({
-      path: `/${phonesPages[page].slug}`,
-      component: 'src/containers/Phone',
-      getData: () => ({
-        data: phonesPages[page],
-      }),
-    }));
-
-    console.log('/// phonesRoutes: ', phonesRoutes)
-
-    //
-    // for (const phone in phones) {
-    //   console.log('/// phone: ', phones[phone]);
-    //   phonesRoutes.push({
-    //     path: `/${phone.slug}`,
-    //     component: 'src/containers/Phone',
-    //     getData: () => ({
-    //       phone,
-    //     }),
-    //   });
-    // }
-    //
-    // console.log('/// phonesRoutes: ', phonesRoutes);
+    Object.keys(content).map(category => {
+      const pages = content[category];
+      const pagesRoutes = Object.keys(pages).map(page => {
+        const { slug, type } = pages[page]
+        return {
+          path: `/${slug}`,
+          component: 'src/containers/Phone',
+          getData: () => ({ data: pages[page], type, }),
+        };
+      })
+      routes = [ ...routes, ...pagesRoutes ]
+    })
 
     return [
       {
@@ -61,10 +51,30 @@ export default {
         component: 'src/containers/Filialen',
       },
       {
+        path: '/impressum',
+        component: 'src/containers/Impressum',
+      },
+      {
+        path: '/agb',
+        component: 'src/containers/Agb',
+      },
+      {
+        path: '/datenschutz',
+        component: 'src/containers/Datenschutz',
+      },
+      {
         path: '/andere',
         component: 'src/containers/Andere',
       },
-      ...phonesRoutes,
+      {
+        path: '/ipads',
+        component: 'src/containers/Ipads',
+      },
+      {
+        path: '/macbooks',
+        component: 'src/containers/Macbooks',
+      },
+      ...routes,
       {
         is404: true,
         component: 'src/containers/404',
@@ -88,6 +98,7 @@ export default {
           <Head>
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+            <link rel="shortcut icon" href="/assets/images/favicon.ico" />
             {renderMeta.styleTags}
           </Head>
           <Body>{children}</Body>

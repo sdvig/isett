@@ -1,7 +1,7 @@
 ---
 title: iPhone 8 Plus Reparatur Preise
 slug: iphone-8-plus-reparatur-preise
-img: 7.jpg
+img: phones/7.jpg
 ---
 
 - Fehlerdiagnose - kostenlos

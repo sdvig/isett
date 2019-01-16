@@ -1,7 +1,7 @@
 ---
 title: iPhone 4 S Reparatur Preise
 slug: iphone-4-s-reparatur-preise
-img: 5c.jpg
+img: phones/5c.jpg
 ---
 
 - Fehlerdiagnose - kostenlos

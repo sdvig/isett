@@ -31,16 +31,16 @@ const PhonePage = styled.div`
   }
 `
 
-const pathToImg = '/assets/images/phones/'
+const pathToImg = '/assets/images'
 
-export default withRouteData(({ data }) => (
+export default withRouteData(({ data, type }) => (
   <PhonePage>
     <Head>
       <title>{data.title} - iSett Handyreparatur Berlin</title>
     </Head>
     <div className="grid">
       <PageHeader>{data.title}</PageHeader>
-      <img src={`${pathToImg}${data.img}`} alt="" />
+      <img src={`${pathToImg}/${data.img}`} alt="" />
       <div className="text">
         { convert(data.contents) }
         <p className="note">Alle Preise inkl. 19% MwSt, zzgl. Versand</p>

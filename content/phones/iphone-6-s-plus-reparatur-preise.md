@@ -1,7 +1,7 @@
 ---
 title: iPhone 6 S Plus Reparatur Preise
 slug: iphone-6-s-plus-reparatur-preise
-img: 7.jpg
+img: phones/7.jpg
 ---
 
 - Fehlerdiagnose - kostenlos

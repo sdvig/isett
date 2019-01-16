@@ -1,7 +1,7 @@
 ---
 title: iPhone 4 Reparatur Preise
 slug: iphone-4-reparatur-preise
-img: 5c.jpg
+img: phones/5c.jpg
 ---
 
 - Fehlerdiagnose - kostenlos

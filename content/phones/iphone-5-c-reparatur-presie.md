@@ -1,7 +1,7 @@
 ---
 title: iPhone 5 C Reparatur Preise
 slug: iphone-5-c-reparatur-preise
-img: 5c.jpg
+img: phones/5c.jpg
 ---
 
 - Fehlerdiagnose - kostenlos

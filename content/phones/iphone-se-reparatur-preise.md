@@ -1,7 +1,7 @@
 ---
 title: iPhone SE Reparatur Preise
 slug: iphone-se-reparatur-preise
-img: se.jpg
+img: phones/se.jpg
 ---
 
 - Fehlerdiagnose - kostenlos

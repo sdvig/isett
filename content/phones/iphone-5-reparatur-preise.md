@@ -1,7 +1,7 @@
 ---
 title: iPhone 5 Reparatur Preise
 slug: iphone-5-reparatur-preise
-img: 5.jpg
+img: phones/5.jpg
 ---
 
 - Fehlerdiagnose - kostenlos

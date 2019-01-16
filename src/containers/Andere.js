@@ -20,6 +20,7 @@ const Phone = styled.div`
     font-size: 13px;
   }
 `
+const pathToImg = '/assets/images'
 
 export default () => (
   <div className="grid">
@@ -30,12 +31,14 @@ export default () => (
       </Link>
     </Phone>
     <Phone>
-      <Link to="/iphone-8-reparatur-preise">
+      <Link to="/macbooks">
+        <img src={`${pathToImg}/macs/macs.jpg`} alt="" />
         <p>MacBooks</p>
       </Link>
     </Phone>
     <Phone>
-      <Link to="/iphone-8-reparatur-preise">
+      <Link to="/ipads">
+        <img src={`${pathToImg}/ipads/air.jpg`} alt="" />
         <p>iPads</p>
       </Link>
     </Phone>
