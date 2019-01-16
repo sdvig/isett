@@ -85,6 +85,9 @@ const AppStyles = styled.div`
     .grid {
       @media (min-width: 700px) { display: flex; }
     }
+    nav a {
+      margin-right: 1em;
+    }
   }
   .copy {
     font-size: 15px;
@@ -128,7 +131,7 @@ const App = () => (
             <nav>
               <Link to="/impressum">Impressum</Link>
               <Link to="/agb">AGB</Link>
-              <Link to="/datenshutz">Datenshutz</Link>
+              <Link to="/datenschutz">Datenschutz</Link>
             </nav>
             <div className="copy">© 2016 iSett. All Rights Reserved.</div>
           </div>
