@@ -13,10 +13,11 @@ const Filialen = styled.div`
 `
 const Filiale = styled.div`
   flex: 1;
+  margin-right: 5em;
 
-`
-const Answer = styled.div`
-
+  iframe {
+    margin-top: 2em;
+  }
 `
 
 export default () => (
@@ -29,13 +30,16 @@ export default () => (
         <p>030 889 25 666</p>
         <p><a href="mailto:service@isett.de">service@isett.de</a></p>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.7622640841832!2d13.322498916074037!3d52.501542879810586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a850fba4d7271d%3A0xec4f7aa5b8966a3b!2siSett-Handyreparatur!5e0!3m2!1sde!2sde!4v1484069506606"
-          width="500"
-          height="450"
-          frameborder="0"
-          style={{border:0}}
-          allowfullscreen
-        ></iframe>
+          title="Filiale Kurfürstendamm"
+          width="100%"
+          height="400px"
+          id="mapcanvas"
+          src="https://maps.google.com/maps?q=isett%20berlin&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+          frameBorder="0"
+          scrolling="no"
+          marginHeight="0"
+          marginWidth="0"
+        />
       </Filiale>
       <Filiale>
         <h4>Filiale Prenzlauer Berg</h4>
@@ -43,14 +47,16 @@ export default () => (
         <p>030 443 57 770</p>
         <p><a href="mailto:service@isett.de">service@isett.de</a></p>
         <iframe
-          width="500"
-          height="450"
-          frameborder="0"
-          style={{border:0}}
-          src="https://www.google.com/maps/embed/v1/place?q=isett%20sch%C3%B6nhauser&key=AIzaSyAWPzyIFypHHabG3UKZKqS1B7R7jQiVyIM"
-          allowfullscreen
-        >
-        </iframe>
+          title="Filiale Prenzlauer Berg"
+          width="100%"
+          height="400px"
+          id="mapcanvas"
+          src="https://maps.google.com/maps?q=iSett,%20Sch%C3%B6nhauser%20Allee%2048,%2010437%20Berlin&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+          frameBorder="0"
+          scrolling="no"
+          marginHeight="0"
+          marginWidth="0"
+        />
       </Filiale>
     </Filialen>
   </div>
