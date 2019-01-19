@@ -33,7 +33,7 @@ const PhonePage = styled.div`
 
 const pathToImg = '/assets/images'
 
-export default withRouteData(({ data, type }) => (
+export default withRouteData(({ data }) => (
   <PhonePage>
     <Head>
       <title>{data.title} - iSett Handyreparatur Berlin</title>

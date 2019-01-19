@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Link } from 'react-static'
+import { Link, Head } from 'react-static'
 import styled from 'styled-components'
 //
 
@@ -25,6 +25,9 @@ const pathToImg = '/assets/images/macs/'
 
 export default () => (
   <div className="grid">
+    <Head>
+      <title>Macbooks - iSett Handyreparatur Berlin</title>
+    </Head>
     <PageHeader>Macbooks</PageHeader>
     <Phone>
       <Link to="/apple-macbook-air-11-6-reparatur-preise">

@@ -28,7 +28,6 @@ export default {
       })
       routes = [ ...routes, ...pagesRoutes ]
     })
-
     return [
       {
         path: '/',
@@ -74,6 +73,54 @@ export default {
         path: '/macbooks',
         component: 'src/containers/Macbooks',
       },
+      {
+        path: '/smartphones',
+        component: 'src/containers/Smartphones',
+      },
+      {
+        path: '/samsung',
+        component: 'src/containers/Samsung',
+      },
+      {
+        path: '/htc',
+        component: 'src/containers/Htc',
+      },
+      {
+        path: '/huawei',
+        component: 'src/containers/Huawei',
+      },
+      {
+        path: '/google',
+        component: 'src/containers/Google',
+      },
+      {
+        path: '/xiaomi',
+        component: 'src/containers/Xiaomi',
+      },
+      {
+        path: '/nokia',
+        component: 'src/containers/Nokia',
+      },
+      {
+        path: '/zte',
+        component: 'src/containers/Zte',
+      },
+      {
+        path: '/one-plus',
+        component: 'src/containers/OnePlus',
+      },
+      {
+        path: '/blackberry',
+        component: 'src/containers/Blackberry',
+      },
+      {
+        path: '/lg',
+        component: 'src/containers/Lg',
+      },
+      {
+        path: '/sony',
+        component: 'src/containers/Sony',
+      },
       ...routes,
       {
         is404: true,
@@ -98,6 +145,7 @@ export default {
           <Head>
             <meta charSet="UTF-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+            <meta name="description" content="iSett - Express iPhone Reparatur Berlin - Handyreparatur" />
             <link rel="shortcut icon" href="/assets/images/favicon.ico" />
             {renderMeta.styleTags}
           </Head>

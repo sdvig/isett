@@ -1,5 +1,5 @@
 import React from 'react'
-import { withSiteData } from 'react-static'
+import { withSiteData, Head } from 'react-static'
 import styled from 'styled-components'
 import HeroBannerImg from '../hero-banner.jpg'
 import SmartphoneIcon from '../smartphone.svg'
@@ -83,6 +83,9 @@ const Grid = styled.div`
 
 export default withSiteData(() => (
   <div>
+    <Head>
+      <title>iPhone Reparatur Berlin Charlottenburg ● iPhone, Tablet & Smartphone Handy Reparatur in Berlin</title>
+    </Head>
     <HeroBanner>
       <div className="text">
         <h1>iSett Handyreparatur</h1>

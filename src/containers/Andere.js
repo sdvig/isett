@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { Link } from 'react-static'
+import { Link, Head } from 'react-static'
 import styled from 'styled-components'
 //
 
@@ -24,9 +24,13 @@ const pathToImg = '/assets/images'
 
 export default () => (
   <div className="grid">
+    <Head>
+      <title>Andere Geräte - iSett Handyreparatur Berlin</title>
+    </Head>
     <PageHeader>Andere Geräte</PageHeader>
     <Phone>
-      <Link to="/iphone-8-reparatur-preise">
+      <Link to="/smartphones">
+        <img src={`${pathToImg}/smartphones/samsung/s8.jpg`} alt="" />
         <p>Smartphones</p>
       </Link>
     </Phone>
