@@ -27,6 +27,14 @@ export default () => (
   <div className="grid">
     <PageHeader>iPhone Reparatur Preise</PageHeader>
     <Phone>
+      <Link to="/iphone-x-reparatur-preise">
+        <img src={`${pathToImg}x.jpg`} alt="" />
+        <p>iPhone x</p>
+      </Link>
+    </Phone>
+    <br></br>
+  
+    <Phone>
       <Link to="/iphone-8-reparatur-preise">
         <img src={`${pathToImg}7.jpg`} alt="" />
         <p>iPhone 8</p>
