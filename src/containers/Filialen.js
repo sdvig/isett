@@ -28,7 +28,7 @@ export default () => (
         <h4>Filiale Kurfürstendamm</h4>
         <p>Uhlandstraße 28, 10719 Berlin</p>
         <p>030 889 25 666</p>
-        <p><a href="mailto:service@isett.de">service@isett.de</a></p>
+        <p><a href="mailto:uhlande@isett.de">uhland@isett.de</a></p>
         <iframe
           title="Filiale Kurfürstendamm"
           width="100%"
@@ -45,7 +45,7 @@ export default () => (
         <h4>Filiale Prenzlauer Berg</h4>
         <p>Schönhauser Allee 48, 10437 Berlin</p>
         <p>030 443 57 770</p>
-        <p><a href="mailto:service@isett.de">service@isett.de</a></p>
+        <p><a href="mailto:schoenhauser@isett.de">schoenhauser@isett.de</a></p>
         <iframe
           title="Filiale Prenzlauer Berg"
           width="100%"
