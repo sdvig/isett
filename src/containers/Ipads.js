@@ -75,6 +75,12 @@ export default () => (
       </Link>
     </Phone>
     <Phone>
+      <Link to="/apple-ipad-mini-3-reparatur-preise">
+        <img src={`${pathToImg}mini.jpg`} alt="" />
+        <p>Apple iPad mini 3</p>
+      </Link>
+    </Phone>
+    <Phone>
       <Link to="/apple-ipad-mini-2-reparatur-preise">
         <img src={`${pathToImg}mini.jpg`} alt="" />
         <p>Apple iPad mini 2</p>
