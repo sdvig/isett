@@ -77,6 +77,7 @@ const AppStyles = styled.div`
     }
     p {
       line-height: 1.5em;
+      color: #fff;
     }
   }
   .footer-bottom {
@@ -113,15 +114,15 @@ const App = () => (
           <section>
             <div className="filials">
               <h3>Filiale Kurfürstendamm</h3>
-              <p>Uhlandstraße 28, 10719 Berlin<br />030 889 25 666</p>
+              <p>Uhlandstraße 28<br/> 10719 Berlin<br />030 889 25 666</p>
             </div>
             <div className="tel">
               <h3>Filiale Prenzlauer Berg</h3>
-              <p>Schönhauser Allee 48, 10437 Berlin<br />030 443 57 770</p>
+              <p>Schönhauser Allee 48<br/> 10437 Berlin<br />030 443 57 770</p>
             </div>
             <div className="hours">
               <h3>Öffnungszeiten</h3>
-              <p>Mo-Fr: 10:00 - 19.00<br />Sa: 11:00 - 17:00</p>
+              <p>Mo-Fr: 10:00 - 19.00<br />Sa: 11:00 - 17:00<br/> <a href="mailto:service@isett.de">E-Mail: service@isett.de</a></p>
             </div>
           </section>
         </div>
@@ -132,8 +133,9 @@ const App = () => (
               <Link to="/impressum">Impressum</Link>
               <Link to="/agb">AGB</Link>
               <Link to="/datenschutz">Datenschutz</Link>
+              <Link to="/versand">Versand</Link>
             </nav>
-            <div className="copy">© 2016 iSett. All Rights Reserved.</div>
+            <div className="copy">© 2016 - 2019 iSett inh. Evelina Chayka. All Rights Reserved.</div>
           </div>
         </div>
       </footer>
