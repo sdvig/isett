@@ -84,17 +84,19 @@ const Grid = styled.div`
 export default withSiteData(() => (
   <div>
     <Head>
-      <title>iPhone Reparatur Berlin Charlottenburg ● iPhone, Tablet & Smartphone Handy Reparatur in Berlin</title>
+      <title>iPhone Reparatur Berlin ● iPhone, Smartphone, Tablet & Laptop Reparatur in Berlin</title>
     </Head>
     <HeroBanner>
       <div className="text">
         <h1>iSett Handyreparatur</h1>
-        <p>Express iPhone, Smartphone, Tablet & Computer Reparatur</p>
+        <p>Express iPhone, Smartphone, Tablet & Laptop Reparatur</p>
       </div>
     </HeroBanner>
     <Services>
       <div className="text">
-      Das Team von iSett bietet seinen Kunden hochklassigen Service bei der Handy Reparatur in Berlin - an unserem Standort am Kudamm sind wir Mo. - Fr. zwischen 10.00 und 19.00 Uhr, sowie Samstags zwischen 11.00 und 17.00 Uhr für Sie da. Wir bieten iPhone, Smartphone, Tablet, iPad und Macbook Reparaturen in Berlin an, dabei sind wir sowohl auf Software- als auch auf Hardwareprobleme spezialisiert. Mac Produkte wie auch Android-basierte Handys können bei uns in Reparatur gegeben werden. Für jedes Problem bieten wir umfassende Lösungen - gern beraten unsere fachlich ausgebildeten Mitarbeiter Sie vor der iPhone- oder Handy Reparatur an unsererm iSett Standort in Berlin Charlottenburg.
+      Wir sind iSett und unser Credo lautet: wir reparieren Ihr iPhone, Smartphone, Tablet oder Laptop schnell, unkompliziert und qualitätvoll. Bei uns können Sie sicher sein, dass Sie nur das zahlen, was auch notwendig ist. Bei uns sind Ihre Daten sicher und bleiben anonym. Und meistens bekommen Sie Ihr Handy innerhalb einer Stunde zurück und es ist wie neu.
+Uns gibt es bereits seit 2016 und wir haben schon zwei Filialen. Wenn Sie noch mehr wissen wollen, z.B. wie unser Patenkind heißt und was uns so besonders macht, dann klicken Sie <a href="http://isett.de/wer-wir-sind/">hier</a> und lesen Sie unsere Firmenphilosophie durch!
+
       </div>
 
       <Grid>
