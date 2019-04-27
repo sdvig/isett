@@ -21,4 +21,4 @@ img: phones/5c.jpg
 - Backkamera Glas - 49 €
 - Datenrettung - 99 €
 - Datenübertragung - 59 €
-- Backcover - 199 €
+- Backcover - 99 €

@@ -21,4 +21,4 @@ img: phones/se.jpg
 - Backkamera Glas - 49 €
 - Datenrettung - 99 €
 - Datenübertragung - 49 €
-- Backcover - 119 €
+- Backcover - 99 €
