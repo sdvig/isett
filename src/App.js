@@ -4,6 +4,7 @@ import styled, { injectGlobal } from 'styled-components'
 import { hot } from 'react-hot-loader'
 //
 import Routes from 'react-static-routes'
+import Analytics from './Analytics'
 import Header from './components/Header'
 
 
@@ -104,42 +105,44 @@ const AppStyles = styled.div`
 
 const App = () => (
   <Router>
-    <AppStyles>
-      <Header />
-      <div className="content">
-        <Routes />
-      </div>
-      <footer>
-        <div className="grid">
-          <section>
-            <div className="filials">
-              <h3>Filiale Kurfürstendamm</h3>
-              <p>Uhlandstraße 28<br/> 10719 Berlin<br />030 889 25 666</p>
-            </div>
-            <div className="tel">
-              <h3>Filiale Prenzlauer Berg</h3>
-              <p>Schönhauser Allee 48<br/> 10437 Berlin<br />030 443 57 770</p>
-            </div>
-            <div className="hours">
-              <h3>Öffnungszeiten</h3>
-              <p>Mo-Fr: 10:00 - 19.00<br />Sa: 11:00 - 17:00<br/> <a href="mailto:service@isett.de">E-Mail: service@isett.de</a></p>
-            </div>
-          </section>
+    <Analytics id="UA-85012381-1">
+      <AppStyles>
+        <Header />
+        <div className="content">
+          <Routes />
         </div>
-        <p className="note">Alle Preise inkl. 19% MwSt, zzgl. Versand</p>
-        <div className="footer-bottom">
+        <footer>
           <div className="grid">
-            <nav>
-              <Link to="/impressum">Impressum</Link>
-              <Link to="/agb">AGB</Link>
-              <Link to="/datenschutz">Datenschutz</Link>
-              <Link to="/versand">Versand</Link>
-            </nav>
-            <div className="copy">© 2016 - 2019 iSett inh. Evelina Chayka. All Rights Reserved.</div>
+            <section>
+              <div className="filials">
+                <h3>Filiale Kurfürstendamm</h3>
+                <p>Uhlandstraße 28<br/> 10719 Berlin<br />030 889 25 666</p>
+              </div>
+              <div className="tel">
+                <h3>Filiale Prenzlauer Berg</h3>
+                <p>Schönhauser Allee 48<br/> 10437 Berlin<br />030 443 57 770</p>
+              </div>
+              <div className="hours">
+                <h3>Öffnungszeiten</h3>
+                <p>Mo-Fr: 10:00 - 19.00<br />Sa: 11:00 - 17:00<br/> <a href="mailto:service@isett.de">E-Mail: service@isett.de</a></p>
+              </div>
+            </section>
           </div>
-        </div>
-      </footer>
-    </AppStyles>
+          <p className="note">Alle Preise inkl. 19% MwSt, zzgl. Versand</p>
+          <div className="footer-bottom">
+            <div className="grid">
+              <nav>
+                <Link to="/impressum">Impressum</Link>
+                <Link to="/agb">AGB</Link>
+                <Link to="/datenschutz">Datenschutz</Link>
+                <Link to="/versand">Versand</Link>
+              </nav>
+              <div className="copy">© 2016 - 2019 iSett inh. Evelina Chayka. All Rights Reserved.</div>
+            </div>
+          </div>
+        </footer>
+      </AppStyles>
+    </Analytics>
   </Router>
 )
 
