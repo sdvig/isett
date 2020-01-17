@@ -41,23 +41,7 @@ export default () => (
           marginWidth="0"
         />
       </Filiale>
-      <Filiale>
-        <h4>Filiale Prenzlauer Berg</h4>
-        <p>Schönhauser Allee 48, 10437 Berlin</p>
-        <p>030 443 57 770</p>
-        <p><a href="mailto:schoenhauser@isett.de">schoenhauser@isett.de</a></p>
-        <iframe
-          title="Filiale Prenzlauer Berg"
-          width="100%"
-          height="400px"
-          id="mapcanvas"
-          src="https://maps.google.com/maps?q=iSett,%20Sch%C3%B6nhauser%20Allee%2048,%2010437%20Berlin&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-          frameBorder="0"
-          scrolling="no"
-          marginHeight="0"
-          marginWidth="0"
-        />
-      </Filiale>
+      
     </Filialen>
   </div>
 )

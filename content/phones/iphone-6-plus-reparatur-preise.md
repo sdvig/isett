@@ -4,10 +4,10 @@ slug: iphone-6-plus-reparatur-preise
 img: phones/7.jpg
 ---
 
-- Fehlerdiagnose - kostenlos
-- Display - 119 €
-- Akku - 79 €
-- Ladebuchse - 79 €
+- Fehlerdiagnose - kostenlos oder 39 €*
+- Display - <s>119 €</s><font color=red> Aktionspreis für Online Kunden - 99 €</font>
+- Akku - <s>79 €</s><font color=red> Aktionspreis für Online Kunden - 59 €</font>
+- Ladebuchse - <s>99 €</s><font color=red> Aktionspreis für Online Kunden - 89 €</font>
 - Software - 69 €
 - Wasserschaden, chemische Reinigung - 69 €
 - kleine Reinigung - 39 €
@@ -21,4 +21,7 @@ img: phones/7.jpg
 - Backkamera Glas - 59 €
 - Datenrettung - 99 €
 - Datenübertragung - 49 €
-- Backcover - 99 €
+- Backcover - 169 €<br><br>
+- für weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+
+*Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.

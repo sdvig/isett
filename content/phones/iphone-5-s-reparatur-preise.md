@@ -4,7 +4,7 @@ slug: iphone-5-s-reparatur-preise
 img: phones/5s.jpg
 ---
 
-- Fehlerdiagnose - kostenlos
+- Fehlerdiagnose - kostenlos oder 39 €*
 - Display - 99 €
 - Akku - 59 €
 - Ladebuchse - 69 €
@@ -21,4 +21,7 @@ img: phones/5s.jpg
 - Backkamera Glas - 49 €
 - Datenrettung - 99 €
 - Datenübertragung - 49 €
-- Backcover - 159 €
+- Backcover - 159 €<br><br>
+- für weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+
+*Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.

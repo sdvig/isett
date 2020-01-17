@@ -4,10 +4,10 @@ slug: iphone-xs-reparatur-preise
 img: phones/x.jpg
 ---
 
-- Fehlerdiagnose - kostenlos
-- Display - 499 €
-- Akku - 99 €
-- Ladebuchse - 99 €
+- Fehlerdiagnose - kostenlos oder 39 €*
+- Display - <s>349 €</s><font color=red> Aktionspreis für Online Kunden - 299 €</font>
+- Akku - <s>169 €</s><font color=red> Aktionspreis für Online Kunden - 139 €</font>
+- Ladebuchse - <s>159 €</s><font color=red> Aktionspreis für Online Kunden - 119 €</font>
 - Software - 99 €
 - Wasserschaden, chemische Reinigung - 69 €
 - kleine Reinigung - 39 €
@@ -20,4 +20,7 @@ img: phones/x.jpg
 - Backkamera Glas - 99 €
 - Datenrettung - 99 €
 - Datenübertragung - 69 €
-- Backcover - 299 €
+- Backcover - <s>299 €</s><font color=red> Aktionspreis für Online Kunden - 259 €</font><br><br>
+- für weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+
+*Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.

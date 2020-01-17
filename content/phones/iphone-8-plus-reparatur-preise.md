@@ -4,8 +4,8 @@ slug: iphone-8-plus-reparatur-preise
 img: phones/7.jpg
 ---
 
-- Fehlerdiagnose - kostenlos
-- Display - 199 €
+- Fehlerdiagnose - kostenlos oder 39 €*
+- Display - <s>199 €</s> <font color=red> Aktionspreis für Online Kunden - 159 €</font>
 - Akku - 99 €
 - Ladebuchse - 169 €
 - Software - 69 €
@@ -21,4 +21,7 @@ img: phones/7.jpg
 - Backkamera Glas - 79 €
 - Datenrettung - 99 €
 - Datenübertragung - 49 €
-- Backcover - 199 €
+- Backcover - 199 €<br><br>
+- für weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+
+*Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.

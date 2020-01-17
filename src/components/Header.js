@@ -183,8 +183,6 @@ export default () => (
           <ul className="menu">
             <Link to="/iphone_reparatur_preise"><li>iPhone Preise</li></Link>
             <Link to="/andere"><li>Andere Geräte Preise</li></Link>
-            <Link to="/faq"><li>FAQ</li></Link>
-            <Link to="/unsere-filialen"><li>Unsere Filialen</li></Link>
             <Link to="/kontakt"><li>Kontakt</li></Link>
           </ul>
         </div>

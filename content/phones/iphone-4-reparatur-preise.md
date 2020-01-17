@@ -4,7 +4,7 @@ slug: iphone-4-reparatur-preise
 img: phones/5c.jpg
 ---
 
-- Fehlerdiagnose - kostenlos
+- Fehlerdiagnose - kostenlos oder 39 €*
 - Display - 59 €
 - Akku - 49 €
 - Ladebuchse - 59 €
@@ -21,4 +21,8 @@ img: phones/5c.jpg
 - Backkamera Glas - 39 €
 - Datenrettung - 99 €
 - Datenübertragung - 49 €
-- Backcover - 59 €
+- Backcover - 59 € <br><br>
+- für weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+
+
+*Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.

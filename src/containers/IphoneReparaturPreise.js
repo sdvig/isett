@@ -27,13 +27,51 @@ export default () => (
   <div className="grid">
     <PageHeader>iPhone Reparatur Preise</PageHeader>
     <Phone>
-      <Link to="/iphone-x-reparatur-preise">
-        <img src={`${pathToImg}x.jpg`} alt="" />
-        <p>iPhone x</p>
+      <Link to="/iphone-11-reparatur-preise">
+        <img src={`${pathToImg}iphone11.jpg`} alt="" />
+        <p>iPhone 11</p>
       </Link>
     </Phone>
+    <Phone>
+      <Link to="/iphone-11pro-reparatur-preise">
+        <img src={`${pathToImg}11pro.jpg`} alt="" />
+        <p>iPhone 11 Pro</p>
+      </Link>
+    </Phone>
+    <Phone>
+      <Link to="/iphone-11pro-max-reparatur-preise">
+        <img src={`${pathToImg}11pro.jpg`} alt="" />
+        <p>iPhone 11 Pro Max</p>
+      </Link>
+      </Phone>
+      <br></br>
+
+    <Phone>
+      <Link to="/iphone-x-reparatur-preise">
+        <img src={`${pathToImg}x.jpg`} alt="" />
+        <p>iPhone X</p>
+      </Link>
+    </Phone>
+    <Phone>
+      <Link to="/iphone-xr-reparatur-preise">
+        <img src={`${pathToImg}x.jpg`} alt="" />
+        <p>iPhone XR</p>
+      </Link>
+    </Phone>
+    <Phone>
+      <Link to="/iphone-xs-reparatur-preise">
+        <img src={`${pathToImg}x.jpg`} alt="" />
+        <p>iPhone XS</p>
+      </Link>
+      </Phone>
+      <Phone>
+        <Link to="/iphone-xs-plus-reparatur-preise">
+          <img src={`${pathToImg}x.jpg`} alt="" />
+          <p>iPhone XS Plus</p>
+        </Link>
+        </Phone>
     <br></br>
-  
+
     <Phone>
       <Link to="/iphone-8-reparatur-preise">
         <img src={`${pathToImg}7.jpg`} alt="" />

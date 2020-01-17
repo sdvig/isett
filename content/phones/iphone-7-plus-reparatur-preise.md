@@ -4,7 +4,7 @@ slug: iphone-7-plus-reparatur-preise
 img: phones/7.jpg
 ---
 
-- Fehlerdiagnose - kostenlos
+- Fehlerdiagnose - kostenlos oder 39 €*
 - Display - 179 €
 - Akku - 99 €
 - Ladebuchse - 99 €
@@ -21,4 +21,7 @@ img: phones/7.jpg
 - Backkamera Glas - 59 €
 - Datenrettung - 99 €
 - Datenübertragung - 49 €
-- Backcover - 149 €
+- Backcover - 149 €<br><br>
+- für weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+
+*Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.
