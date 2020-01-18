@@ -102,19 +102,13 @@ Uns gibt es bereits seit 2016 und wir haben schon zwei Filialen. Wenn Sie noch m
       <Grid>
         <div className="service">
           <img src={SmartphoneIcon} alt="" />
-          <h2>kostenlose Diagnose</h2>
-          <p>Wenn Ihr Gerät nicht repariert werden kann oder es macht keinen Sinn es zu reparieren, brauchen Sie nichts zu bezahlen.</p>
-        </div>
+              </div>
         <div className="service">
           <img src={WavesIcon} alt="" />
-          <h2>ch. Reinigung bei Wasserschaden</h2>
-          <p>Falls Ihr Gerät nass geworden ist, kommen Sie bitte schnellstmöglich zu uns. Reis hilft nicht! Isopropanol 99,9% hilft aber sehr gut!</p>
-        </div>
+                </div>
         <div className="service">
           <img src={TimeIcon} alt="" />
-          <h2>Express Reparatur vor Ort</h2>
-          <p>viele Reparaturen sind innerhalb von ca. 30-40 min. möglich, da wir eine Werkstatt vor Ort haben.</p>
-        </div>
+                </div>
       </Grid>
     </Services>
   </div>
