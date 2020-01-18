@@ -5,8 +5,8 @@ img: phones/7.jpg
 ---
 
 - Fehlerdiagnose - kostenlos oder 39 €*
-- Display - 179 €
-- Akku - 99 €
+- Display - <s>179 €</s><font color=red> Aktionspreis für Online Kunden - 139 €</font>
+- Akku - <s> 99 €</s><font color=red> Aktionspreis für Online Kunden - 69 €</font>
 - Ladebuchse - 99 €
 - Software - 69 €
 - Wasserschaden, chemische Reinigung - 69 €
@@ -20,7 +20,7 @@ img: phones/7.jpg
 - Backkamera - 179 €
 - Backkamera Glas - 59 €
 - Datenrettung - 99 €
-- Datenübertragung - 49 €
+- Datenübertragung - 59 €
 - Backcover - 149 €<br><br>
 - für weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
 

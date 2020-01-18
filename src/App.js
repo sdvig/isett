@@ -115,16 +115,16 @@ const App = () => (
           <div className="grid">
             <section>
               <div className="filials">
-                <h3>Filiale Kurfürstendamm</h3>
+                <h2>Filiale Kurfürstendamm</h2>
                 <p>Uhlandstraße 28<br/> 10719 Berlin<br />030 889 25 666</p>
               </div>
-              <div className="tel">
-                <h3>Filiale Prenzlauer Berg</h3>
-                <p>Schönhauser Allee 48<br/> 10437 Berlin<br />030 443 57 770</p>
-              </div>
               <div className="hours">
-                <h3>Öffnungszeiten</h3>
-                <p>Mo-Fr: 10:00 - 19.00<br />Sa: 11:00 - 17:00<br/> <a href="mailto:service@isett.de">E-Mail: service@isett.de</a></p>
+                <h2>Öffnungszeiten</h2>
+                <p>Mo-Fr: 10:30 - 18.00<br />Sa: 11:00 - 17:00<br/> nach Vereinbarung</p>
+              </div>
+              <div className="socialnetworks">
+                <h2>Social Networks</h2>
+                <p><a href="https://www.facebook.com/isetthandyreparatur/" target="_blank">Facebook</a><br /><a href="https://www.instagram.com/isett_handyreparatur/" target="_blank">Instagram</a><br/> <a href="https://local.google.com/place?id=17027963568296192571&use=srp&ibp=gwp;0,7" target="_blank">Google Bewertungen</a></p>
               </div>
             </section>
           </div>
@@ -137,7 +137,7 @@ const App = () => (
                 <Link to="/datenschutz">Datenschutz</Link>
                 <Link to="/versand">Versand</Link>
               </nav>
-              <div className="copy">© 2016 - 2019 iSett inh. Evelina Chayka. All Rights Reserved.</div>
+              <div className="copy">© 2016 - 2020 iSett inh. Evelina Chayka. All Rights Reserved.</div>
             </div>
           </div>
         </footer>

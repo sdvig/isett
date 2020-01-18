@@ -21,7 +21,7 @@ img: phones/5.jpg
 - Backkamera Glas - 49 €
 - Datenrettung - 99 €
 - Datenübertragung - 69 €
-- Backcover - 199 €<br><br>
+- Backcover - 99 €<br><br>
 - für weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
 
 *Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.

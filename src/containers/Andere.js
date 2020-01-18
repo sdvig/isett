@@ -28,12 +28,7 @@ export default () => (
       <title>Andere Geräte - iSett Handyreparatur Berlin</title>
     </Head>
     <PageHeader>Andere Geräte</PageHeader>
-    <Phone>
-      <Link to="/smartphones">
-        <img src={`${pathToImg}/smartphones/samsung/s8.jpg`} alt="" />
-        <p>Smartphones</p>
-      </Link>
-    </Phone>
+
     <Phone>
       <Link to="/macbooks">
         <img src={`${pathToImg}/macs/macs.jpg`} alt="" />

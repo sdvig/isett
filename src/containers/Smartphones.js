@@ -28,9 +28,9 @@ const pathToImg = '/assets/images/smartphones/'
 export default () => (
   <div className="grid">
     <Head>
-      <title>Smartphones marks Reparatur Preise - iSett Handyreparatur Berlin</title>
+      <title>Smartphones Reparatur Preise - iSett Handyreparatur Berlin</title>
     </Head>
-    <PageHeader>Smartphones marks Reparatur Preise</PageHeader>
+    <PageHeader>Smartphones Reparatur Preise</PageHeader>
     <Phone>
       <Link to="/samsung">
         <img src={`${pathToImg}samsung.jpg`} alt="" />
