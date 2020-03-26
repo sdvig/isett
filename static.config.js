@@ -148,6 +148,7 @@ export default {
             <meta name="description" content="iSett - Express iPhone Reparatur Berlin - Handyreparatur" />
             <link rel="shortcut icon" href="/assets/images/favicon.ico" />
             {renderMeta.styleTags}
+            <script id="cituroWidgetLoader" type="text/javascript" src="https://app.cituro.com/bookingwidget/isett?initial=true" defer></script>            
           </Head>
           <Body>{children}</Body>
         </Html>
