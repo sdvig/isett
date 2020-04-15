@@ -115,16 +115,21 @@ const App = () => (
           <div className="grid">
             <section>
               <div className="filials">
+                <div className="cituroContainer" />
                 <h2>Filiale Kurfürstendamm</h2>
-                <p>Uhlandstraße 28<br/> 10719 Berlin<br />030 889 25 666</p>
+                <p>Uhlandstraße 28<br /> 10719 Berlin<br />030 889 25 666</p>
               </div>
               <div className="hours">
                 <h2>Öffnungszeiten</h2>
-                <p>Mo-Fr: 10:30 - 18.00<br />Sa: 11:00 - 17:00<br/> nach Vereinbarung</p>
+                <p>Mo-Fr: 10:30 - 18.00<br />Sa: 11:00 - 17:00<br /> nach Vereinbarung</p>
               </div>
               <div className="socialnetworks">
                 <h2>Social Networks</h2>
-                <p><a href="https://www.facebook.com/isetthandyreparatur/" target="_blank">Facebook</a><br /><a href="https://www.instagram.com/isett_handyreparatur/" target="_blank">Instagram</a><br/> <a href="https://local.google.com/place?id=17027963568296192571&use=srp&ibp=gwp;0,7" target="_blank">Google Bewertungen</a></p>
+                <p>
+                  <a href="https://www.facebook.com/isetthandyreparatur/" target="_blank" rel="noopener noreferrer">Facebook</a><br />
+                  <a href="https://www.instagram.com/isett_handyreparatur/" target="_blank" rel="noopener noreferrer">Instagram</a><br />
+                  <a href="https://local.google.com/place?id=17027963568296192571&use=srp&ibp=gwp;0,7" target="_blank" rel="noopener noreferrer">Google Bewertungen</a>
+                </p>
               </div>
             </section>
           </div>
