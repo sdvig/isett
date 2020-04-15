@@ -5,9 +5,9 @@ img: phones/7.jpg
 ---
 
 - Fehlerdiagnose - kostenlos oder 39 €*
-- Display - <s>129 €</s><font color=red> Aktionspreis für Online Kunden - 99 €</font>
-- Akku - <s>79 €</s><font color=red> Aktionspreis für Online Kunden - 59 €</font>
-- Ladebuchse - <s>79 €</s><font color=red> Aktionspreis für Online Kunden - 69 €</font>
+- Display - <s>129 €</s><font color=red> Aktionspreis - 119 €</font>
+- Akku - <s>79 €</s><font color=red> Aktionspreis - 59 €</font>
+- Ladebuchse - <s>79 €</s><font color=red> Aktionspreis - 69 €</font>
 - Software - 69 €
 - Wasserschaden, chemische Reinigung - 69 €
 - kleine Reinigung - 39 €
@@ -22,6 +22,11 @@ img: phones/7.jpg
 - Datenrettung - 99 €
 - Datenübertragung - 49 €
 - Backcover - 129 €<br><br>
-- für weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+- Platinenreparatur sowie weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+<br></br>
+<h3>Zubehör</h3>
+- Panzerglas - 20 €
+- Panzerglas 3D - 30 €
+- Silicon Case - 30 €
 
 *Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.

@@ -5,7 +5,7 @@ img: phones/se.jpg
 ---
 
 - Fehlerdiagnose - kostenlos oder 39 €*
-- Display - <s>99 €</s><font color=red> Aktionspreis für Online Kunden - 79 €</font>
+- Display - 99 €
 - Akku - 69 €
 - Ladebuchse - 69 €
 - Software - 69 €
@@ -22,6 +22,10 @@ img: phones/se.jpg
 - Datenrettung - 99 €
 - Datenübertragung - 59 €
 - Backcover - 129 €<br><br>
-- für weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+- Platinenreparatur sowie weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+<br></br>
+<h3>Zubehör</h3>
+- Panzerglas - 20 €
+- Silicon Case - 30 €
 
 *Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.

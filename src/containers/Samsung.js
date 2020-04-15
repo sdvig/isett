@@ -36,9 +36,46 @@ export default () => (
     </Head>
     <PageHeader>Samsung Reparatur Preise</PageHeader>
 
+    <h2> S-Modelle </h2>
+
+    <Phone>
+      <Link to="/samsung-s10e">
+        <img src={`${pathToImg}s10e.jpg`} alt="" />
+        <p>Samsung Galaxy S10 E</p>
+      </Link>
+    </Phone>
+    <Phone>
+      <Link to="/samsung-s10plus">
+        <img src={`${pathToImg}s10e.jpg`} alt="" />
+        <p>Samsung Galaxy S10 Plus</p>
+      </Link>
+    </Phone>
+    <Phone>
+      <Link to="/samsung-s10">
+        <img src={`${pathToImg}s10e.jpg`} alt="" />
+        <p>Samsung Galaxy S10</p>
+      </Link>
+    </Phone>
+
+    <br></br>
+
+    <Phone>
+      <Link to="/samsung-s9">
+        <img src={`${pathToImg}s9.jpg`} alt="" />
+        <p>Samsung Galaxy S9</p>
+      </Link>
+    </Phone>
+
+    <Phone>
+      <Link to="/samsung-s9Plus">
+        <img src={`${pathToImg}s9.jpg`} alt="" />
+        <p>Samsung Galaxy S10</p>
+      </Link>
+    </Phone>
+<br></br>
     <Phone>
       <Link to="/samsung-s8-plus">
-        <img src={`${pathToImg}s8-plus.jpg`} alt="" />
+        <img src={`${pathToImg}s8.jpg`} alt="" />
         <p>Samsung Galaxy S8 plus</p>
       </Link>
     </Phone>
@@ -48,12 +85,8 @@ export default () => (
         <p>Samsung Galaxy S8</p>
       </Link>
     </Phone>
-    <Phone>
-      <Link to="/samsung-s6-edge-plus">
-        <img src={`${pathToImg}s6-edge-plus.jpg`} alt="" />
-        <p>Samsung Galaxy S6 edge plus</p>
-      </Link>
-    </Phone>
+    <br></br>
+
     <Phone>
       <Link to="/samsung-s7-edge">
         <img src={`${pathToImg}s7-edge.jpg`} alt="" />
@@ -67,118 +100,35 @@ export default () => (
         <p>Samsung Galaxy S7</p>
       </Link>
     </Phone>
+
+      <More>Weitere Modelle auf Anfrage</More>
+
+    <br></br>
+    <h2> A - Modelle </h2>
+    <br></br>
+
     <Phone>
-      <Link to="/samsung-s6-edge">
-        <img src={`${pathToImg}s6.jpg`} alt="" />
-        <p>Samsung Galaxy S6 edge</p>
+      <Link to="/samsung-a90">
+        <img src={`${pathToImg}a90.jpg`} alt="" />
+        <p>Samsung Galaxy A90</p>
       </Link>
     </Phone>
-    <Phone>
-      <Link to="/samsung-s6">
-        <img src={`${pathToImg}s6.jpg`} alt="" />
-        <p>Samsung Galaxy S6</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-s5-reparatur-preise">
-        <img src={`${pathToImg}`} alt="" />
-        <p>Samsung Galaxy S5</p>
+      <Phone>
+      <Link to="/samsung-a50">
+        <img src={`${pathToImg}a50.jpg`} alt="" />
+        <p>Samsung Galaxy A50</p>
       </Link>
     </Phone>
 
     <Phone>
-      <Link to="#">
-        <img src={`${pathToImg}`} alt="" />
-        <p>Samsung Galaxy S4</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-note-8">
-        <img src={`${pathToImg}note-8.jpg`} alt="" />
-        <p>Samsung Galaxy Note 8</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-a7-2017">
-        <img src={`${pathToImg}a7-2017.jpg`} alt="" />
-        <p>Samsung Galaxy A7 (2017)</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-a7">
-        <img src={`${pathToImg}a7.jpg`} alt="" />
-        <p>Samsung Galaxy A7</p>
+      <Link to="/samsung-a40">
+        <img src={`${pathToImg}a40.jpg`} alt="" />
+        <p>Samsung Galaxy A40</p>
       </Link>
     </Phone>
 
-    <Phone>
-      <Link to="/samsung-a5-2017">
-        <img src={`${pathToImg}a5-2017.jpg`} alt="" />
-        <p>Samsung Galaxy A5 (2017)</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-a5-2016">
-        <img src={`${pathToImg}a5-2016.jpg`} alt="" />
-        <p>Samsung Galaxy A5 (2016)</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-a5">
-        <img src={`${pathToImg}a5.jpg`} alt="" />
-        <p>Samsung Galaxy A5</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-a3-2017">
-        <img src={`${pathToImg}a3-2017.jpg`} alt="" />
-        <p>Samsung Galaxy A3 (2017)</p>
-      </Link>
-    </Phone>
+      <More>Weitere Modelle auf Anfrage</More>
+    <br></br>
 
-    <Phone>
-      <Link to="/samsung-a3-2016">
-        <img src={`${pathToImg}a3-2016.jpg`} alt="" />
-        <p>Samsung Galaxy A3 (2016)</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-a3-2015">
-        <img src={`${pathToImg}a3-2015.jpg`} alt="" />
-        <p>Samsung Galaxy A3 (2015)</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-j7-2017">
-        <img src={`${pathToImg}j7-2017.jpg`} alt="" />
-        <p>Samsung Galaxy J7 (2017)</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-j7-2016">
-        <img src={`${pathToImg}j7-2017.jpg`} alt="" />
-        <p>Samsung Galaxy J7 (2016)</p>
-      </Link>
-    </Phone>
-
-    <Phone>
-      <Link to="/samsung-j5-2015">
-        <img src={`${pathToImg}j5-2015.jpg`} alt="" />
-        <p>Samsung Galaxy J5 (2015)</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-j3-2017">
-        <img src={`${pathToImg}j3-2017.jpg`} alt="" />
-        <p>Samsung Galaxy J3 (2017)</p>
-      </Link>
-    </Phone>
-    <Phone>
-      <Link to="/samsung-j3-2016">
-        <img src={`${pathToImg}j3-2016.jpg`} alt="" />
-        <p>Samsung Galaxy J3 (2016)</p>
-      </Link>
-    </Phone>
-    <More>Weitere Modelle auf Anfrage</More>
   </div>
 )

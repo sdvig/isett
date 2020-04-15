@@ -5,7 +5,7 @@ img: phones/5s.jpg
 ---
 
 - Fehlerdiagnose - kostenlos oder 39 €*
-- Display - 99 €
+- Display - 89 €
 - Akku - 59 €
 - Ladebuchse - 69 €
 - Software - 69 €
@@ -22,6 +22,10 @@ img: phones/5s.jpg
 - Datenrettung - 99 €
 - Datenübertragung - 49 €
 - Backcover - 159 €<br><br>
-- für weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+- Platinenreparatur sowie weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
+<br></br>
+<h3>Zubehör</h3>
+- Panzerglas - 20 €
+- Silicon Case - 30 €
 
 *Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.
