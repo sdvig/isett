@@ -181,10 +181,9 @@ export default () => (
           <span />
           <span />
           <ul className="menu">
-            <Link to="/iphone_reparatur_preise"><li>iPhone</li></Link>
-            <Link to="/smartphones"><li>Smartphone</li></Link>
-            <Link to="/andere"><li>Laptop / Macbook</li></Link>
-            <Link to="/andere"><li>Tablet / iPad</li></Link>
+            <Link to="/iphone_reparatur_preise"><li>iPhone Reparatur</li></Link>
+            <Link to="/andere"><li>iPad Reparatur</li></Link>
+            <Link to="/andere"><li>Macbook Reparatur</li></Link>
             <Link to="/kontakt"><li>Kontakt</li></Link>
           </ul>
         </div>

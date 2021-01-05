@@ -25,24 +25,15 @@ export default () => (
   <div className="grid">
     <PageHeader>Kontakt</PageHeader>
     <p>Wir freuen uns auf Ihre Anfragen!</p>
-    <h4>Sie erreichen uns telefonisch:</h4>
-    <p>030 889 25 666 </p>
+    <h4></h4>
+    <h4>Per Telefon</h4><p>030 889 25 666 </p>
+    <h4>Per WhatsApp</h4><p> +4917664352077</p>
     <h4>Per Mail:</h4>
     <p><a href="mailto:service@isett.de">service@isett.de</a></p>
     <h4>Social Network:</h4>
-    <p> <a href="https://www.facebook.com/isetthandyreparatur/">Facebook: isetthandyreparatur</a> </p>
-    <p><a href="https://www.instagram.com/isett_handyreparatur/">Instagram: isett_handyreparatur</a></p>
-    <iframe
-      title="Filiale Kurfürstendamm"
-      width="100%"
-      height="400px"
-      id="mapcanvas"
-      src="https://maps.google.com/maps?q=isett%20berlin&amp;t=&amp;z=17&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-      frameBorder="0"
-      scrolling="no"
-      marginHeight="0"
-      marginWidth="0"
-    />    
+    <p> <a href="https://www.facebook.com/isetthandyreparatur/">Facebook:</a> isetthandyreparatur </p>
+    <p><a href="https://www.instagram.com/isett_handyreparatur/">Instagram:</a> isett_handyreparatur</p>
+
   </div>
 
 )

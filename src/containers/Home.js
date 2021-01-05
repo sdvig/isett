@@ -89,13 +89,13 @@ export default withSiteData(() => (
     <HeroBanner>
       <div className="text">
         <h1>iSett Handyreparatur</h1>
-        <p>Express iPhone, Smartphone, Tablet & Laptop Reparatur</p>
+        <p>Express mobile iPhone, iPad & Macbook Reparatur</p>
       </div>
     </HeroBanner>
     <Services>
       <div className="text">
-      Wir sind iSett und unser Credo lautet: wir reparieren Ihr iPhone, Smartphone, Tablet oder Laptop schnell, unkompliziert und qualitätvoll. Bei uns können Sie sicher sein, dass Sie nur das zahlen, was auch notwendig ist. Bei uns sind Ihre Daten sicher und bleiben anonym. Und meistens bekommen Sie Ihr Handy innerhalb einer Stunde zurück und es ist wie neu.
-Uns gibt es bereits seit 2016 und wir haben schon zwei Filialen. Wenn Sie noch mehr wissen wollen, z.B. wie unser Patenkind heißt und was uns so besonders macht, dann klicken Sie <a href="http://isett.de/wer-wir-sind/">hier</a> und lesen Sie unsere Firmenphilosophie durch!
+      Wir sind iSett und unser Credo lautet: wir reparieren Ihr iPhone, iPad oder Macbook schnell, unkompliziert und qualitätvoll. Bei uns können Sie sicher sein, dass Sie nur das zahlen, was auch notwendig ist. Bei uns sind Ihre Daten sicher und bleiben anonym. Und meistens bekommen Sie Ihr Handy innerhalb einer Stunde zurück und es ist wie neu.
+Uns gibt es bereits seit 2016. Wenn Sie noch mehr wissen wollen, z.B. wie unser Patenkind heißt und was uns so besonders macht, dann klicken Sie <a href="http://isett.de/wer-wir-sind/">hier</a> und lesen Sie unsere Firmenphilosophie durch!
 
       </div>
 

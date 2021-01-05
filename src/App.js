@@ -111,17 +111,18 @@ const App = () => (
         <div className="content">
           <Routes />
         </div>
+          <div className="cituroContainer" />
         <footer>
           <div className="grid">
             <section>
               <div className="filials">
-                <div className="cituroContainer" />
-                <h2>Filiale Kurfürstendamm</h2>
-                <p>Uhlandstraße 28<br /> 10719 Berlin<br />030 889 25 666</p>
+
+                <h2>Wir arbeiten mobile!</h2>
+                <p>Bitte buchen Sie hier rechts <u>einen Termin</u><br /> Wir holen Ihr Gerät kontaktlos ab!<br />Reparaturen wie gewöhnt in 30 Min.</p>
               </div>
               <div className="hours">
                 <h2>Öffnungszeiten</h2>
-                <p>Mo-Fr: 10:30 - 18.00<br />Sa: 11:00 - 17:00<br /> nach Vereinbarung</p>
+                <p>Mo-Fr: 10:30 - 21.00<br />Sa: 11:00 - 21:00<br />+ nach Vereinbarung</p>
               </div>
               <div className="socialnetworks">
                 <h2>Social Networks</h2>
@@ -142,7 +143,7 @@ const App = () => (
                 <Link to="/datenschutz">Datenschutz</Link>
                 <Link to="/versand">Versand</Link>
               </nav>
-              <div className="copy">© 2016 - 2020 iSett inh. Evelina Chayka. All Rights Reserved.</div>
+              <div className="copy">© 2016 - 2021 iSett inh. Evelina Chayka. All Rights Reserved.</div>
             </div>
           </div>
         </footer>
