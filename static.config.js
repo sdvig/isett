@@ -150,7 +150,10 @@ export default {
             {renderMeta.styleTags}
             <script id="cituroWidgetLoader" type="text/javascript" src="https://app.cituro.com/bookingwidget/isett?initial=true" defer></script>
           </Head>
-          <Body>{children}</Body>
+          <Body>
+            {children}
+            <script src="//code.tidio.co/8tyo8izjyzbgibnjh4evawuj2iwbqbhz.js"></script>
+          </Body>
         </Html>
       )
     }
