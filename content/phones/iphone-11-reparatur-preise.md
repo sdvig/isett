@@ -4,8 +4,8 @@ slug: iphone-11-reparatur-preise
 img: phones/11.jpg
 ---
 
-- Fehlerdiagnose - kostenlos oder 39 €*
-- Display - 279 €
+- Fehlerdiagnose - 39 €*
+- Display - 169 €
 - Akku - 149 €
 - Ladebuchse - 159 €
 - Software - 99 €
@@ -17,12 +17,13 @@ img: phones/11.jpg
 - Backkamera Glas - 129 €
 - Datenrettung - 99 €
 - Datenübertragung - 69 €
-- Backcover - 299 €<br><br>
+- Backcover - 249 €<br><br>
 - Platinenreparatur sowie weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
 <br></br>
 <h3>Zubehör</h3>
 - Panzerglas - 30 €
 - Panzerglas 3D - 40 €
+- Ladekabel - 20 €
 - Silicon Case - 40 €
 
 

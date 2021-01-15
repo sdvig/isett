@@ -4,7 +4,7 @@ slug: iphone-5-reparatur-preise
 img: phones/5.jpg
 ---
 
-- Fehlerdiagnose - kostenlos oder 39 €*
+- Fehlerdiagnose - 39 €*
 - Display - 89 €
 - Akku - 59 €
 - Ladebuchse - 69 €
@@ -26,6 +26,7 @@ img: phones/5.jpg
 <br></br>
 <h3>Zubehör</h3>
 - Panzerglas - 20 €
+- Ladekabel - 20 €
 - Silicon Case - 30 €
 
 *Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.

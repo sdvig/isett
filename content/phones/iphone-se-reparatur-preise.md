@@ -4,7 +4,7 @@ slug: iphone-se-reparatur-preise
 img: phones/se.jpg
 ---
 
-- Fehlerdiagnose - kostenlos oder 39 €*
+- Fehlerdiagnose - 39 €*
 - Display - 99 €
 - Akku - 69 €
 - Ladebuchse - 69 €
@@ -20,12 +20,13 @@ img: phones/se.jpg
 - Backkamera - 59 €
 - Backkamera Glas - 49 €
 - Datenrettung - 99 €
-- Datenübertragung - 59 €
+- Datenübertragung - 69 €
 - Backcover - 129 €<br><br>
 - Platinenreparatur sowie weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
 <br></br>
 <h3>Zubehör</h3>
 - Panzerglas - 20 €
+- Ladekabel - 20 €
 - Silicon Case - 30 €
 
 *Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.
