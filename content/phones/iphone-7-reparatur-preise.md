@@ -4,7 +4,7 @@ slug: iphone-7-reparatur-preise
 img: phones/7.jpg
 ---
 
-- Fehlerdiagnose - kostenlos oder 39 €*
+- Fehlerdiagnose - 39 €*
 - Display - <s>159 €</s><font color=red> Aktionspreis - 139 €</font>
 - Akku - <s>89 €</s><font color=red> Aktionspreis - 79 €</font>
 - Ladebuchse - 119 €
@@ -20,13 +20,14 @@ img: phones/7.jpg
 - Backkamera - 129 €
 - Backkamera Glas - 59 €
 - Datenrettung - 99 €
-- Datenübertragung - 59 €
+- Datenübertragung - 69 €
 - Backcover - 149 €<br><br>
 - Platinenreparatur sowie weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
 <br></br>
 <h3>Zubehör</h3>
 - Panzerglas - 20 €
 - Panzerglas 3D - 30 €
+- Ladekabel - 20 €
 - Silicon Case - 35 €
 
 *Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.

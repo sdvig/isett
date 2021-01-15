@@ -118,7 +118,7 @@ const App = () => (
               <div className="filials">
 
                 <h2>Wir arbeiten mobile!</h2>
-                <p>Bitte buchen Sie hier rechts <u>einen Termin</u><br /> Wir holen Ihr Gerät kontaktlos ab!<br />Reparaturen wie gewöhnt in 30 Min.</p>
+                <p>Bitte buchen Sie hier rechts <a href="https://app.cituro.com/booking/isett" target="_blank" rel="noopener noreferrer">einen Termin</a><br /> Wir holen Ihr Gerät kontaktlos ab!<br />Reparaturen wie gewöhnt in 30 Min.</p>
               </div>
               <div className="hours">
                 <h2>Öffnungszeiten</h2>

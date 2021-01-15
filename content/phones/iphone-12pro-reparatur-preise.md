@@ -1,13 +1,13 @@
 ---
-title: iPhone 11 Pro Reparatur Preise
-slug: iphone-11pro-reparatur-preise
-img: phones/11pro.jpg
+title: iPhone 12 Pro Reparatur Preise
+slug: iphone-12pro-reparatur-preise
+img: phones/12pro.jpg
 ---
 
 - Fehlerdiagnose - 39 €*
-- Display - 299 €
-- Akku - 169 €
-- Ladebuchse - 169 €
+- Display - 449 €
+- Akku - 199 €
+- Ladebuchse - 249 €
 - Software - 99 €
 - Wasserschaden, chemische Reinigung - 99 €
 - kleine Reinigung - 39 €
@@ -17,7 +17,7 @@ img: phones/11pro.jpg
 - Backkamera Glas - 149 €
 - Datenrettung - 99 €
 - Datenübertragung - 69 €
-- Backcover - 249 €<br><br>
+- Backcover - 349 €<br><br>
 - Platinenreparatur sowie weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
 <br></br>
 <h3>Zubehör</h3>

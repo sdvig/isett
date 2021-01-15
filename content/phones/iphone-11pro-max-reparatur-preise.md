@@ -4,8 +4,8 @@ slug: iphone-11pro-max-reparatur-preise
 img: phones/11pro.jpg
 ---
 
-- Fehlerdiagnose - kostenlos oder 39 €*
-- Display - 499 €
+- Fehlerdiagnose - 39 €*
+- Display - 399 €
 - Akku - 199 €
 - Ladebuchse - 249 €
 - Software - 99 €
@@ -17,12 +17,13 @@ img: phones/11pro.jpg
 - Backkamera Glas - 149 €
 - Datenrettung - 99 €
 - Datenübertragung - 69 €
-- Backcover - 349 €<br><br>
+- Backcover - 299 €<br><br>
 - Platinenreparatur sowie weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
 <br></br>
 <h3>Zubehör</h3>
 - Panzerglas - 30 €
 - Panzerglas 3D - 40 €
+- Ladekabel - 20 €
 - Silicon Case - 40 €
 
 *Kommt der Reparaturauftrag zustande, werden keine zusätzlichen Kosten für die Fehlerdiagnose berechnet.

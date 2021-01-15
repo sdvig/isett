@@ -93,11 +93,9 @@ export default withSiteData(() => (
       </div>
     </HeroBanner>
     <Services>
-      <div className="text">
-      Wir sind iSett und unser Credo lautet: wir reparieren Ihr iPhone, iPad oder Macbook schnell, unkompliziert und qualitätvoll. Bei uns können Sie sicher sein, dass Sie nur das zahlen, was auch notwendig ist. Bei uns sind Ihre Daten sicher und bleiben anonym. Und meistens bekommen Sie Ihr Handy innerhalb einer Stunde zurück und es ist wie neu.
-Uns gibt es bereits seit 2016. Wenn Sie noch mehr wissen wollen, z.B. wie unser Patenkind heißt und was uns so besonders macht, dann klicken Sie <a href="http://isett.de/wer-wir-sind/">hier</a> und lesen Sie unsere Firmenphilosophie durch!
-
-      </div>
+    <div className="text">
+    Die Corona-Pandemie hat gezeigt: Es geht viel mehr, als alle dachten. <br></br>Mobile Arbeit ist plötzlich Alltag geworden und hat das Leben einfacher gemacht.<br></br><br></br> Wir haben tolle Feedbacke gegenüber unserem mobilen Service während des ersten Lockdowns bekommen, sodass wir ab jetzt ausschließlich mobile arbeiten werden.<br></br><u>Bitte buchen Sie einen Termin - wir holen Ihr Gerät kontaklos ab.</u><br></br> Meisten Reparaturen werden wie gewöhnt innerhalb von 30 Min. in unserer Autowerkstatt erledigt, danach wird Ihr Gerät repariert (selbstverständlich desinfiziert) und zurück gebracht.
+    </div>
 
       <Grid>
         <div className="service">

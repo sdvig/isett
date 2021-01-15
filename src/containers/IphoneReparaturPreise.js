@@ -26,6 +26,32 @@ const pathToImg = '/assets/images/phones/'
 export default () => (
   <div className="grid">
     <PageHeader>iPhone Reparatur Preise</PageHeader>
+
+    <Phone>
+      <Link to="/iphone-12-reparatur-preise">
+        <img src={`${pathToImg}iphone12.jpg`} alt="" />
+        <p>iPhone 12</p>
+      </Link>
+    </Phone>
+    <Phone>
+      <Link to="/iphone-12mini-reparatur-preise">
+        <img src={`${pathToImg}iphone12.jpg`} alt="" />
+        <p>iPhone 12 Mini</p>
+      </Link>
+    </Phone>
+    <Phone>
+      <Link to="/iphone-12pro-reparatur-preise">
+        <img src={`${pathToImg}iphone12pro.jpg`} alt="" />
+        <p>iPhone 12 Pro</p>
+      </Link>
+    </Phone>
+    <Phone>
+      <Link to="/iphone-12pro-max-reparatur-preise">
+        <img src={`${pathToImg}iphone12pro.jpg`} alt="" />
+        <p>iPhone 12 Pro Max</p>
+      </Link>
+    </Phone>
+          <br></br>
     <Phone>
       <Link to="/iphone-11-reparatur-preise">
         <img src={`${pathToImg}iphone11.jpg`} alt="" />
@@ -44,6 +70,12 @@ export default () => (
         <p>iPhone 11 Pro Max</p>
       </Link>
       </Phone>
+      <Phone>
+        <Link to="/iphone-se2020-reparatur-preise">
+          <img src={`${pathToImg}se2020.jpg`} alt="" />
+          <p>iPhone SE 2020</p>
+        </Link>
+        </Phone>
       <br></br>
 
     <Phone>

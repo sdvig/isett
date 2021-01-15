@@ -4,7 +4,7 @@ slug: iphone-5-c-reparatur-preise
 img: phones/5c.jpg
 ---
 
-- Fehlerdiagnose - kostenlos oder 39 €*
+- Fehlerdiagnose - 39 €*
 - Display - 89 €
 - Akku - 59 €
 - Ladebuchse - 69 €
@@ -20,12 +20,13 @@ img: phones/5c.jpg
 - Backkamera - 69 €
 - Backkamera Glas - 49 €
 - Datenrettung - 99 €
-- Datenübertragung - 59 €
+- Datenübertragung - 69 €
 - Backcover - 99 €<br><br>
 - Platinenreparatur sowie weitere Reparaturen bitte <a href="/kontakt">anfragen</a>
 <br></br>
 <h3>Zubehör</h3>
 - Panzerglas - 20 €
+- Ladekabel - 20 €
 - Silicon Case - 30 €
 
 
