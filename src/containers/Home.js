@@ -31,9 +31,11 @@ const HeroBanner = styled.div`
   .text {
     display: block;
     text-align: center;
+
     p {
       color: rgb(0, 242, 255);
       margin-top: 2em;
+      font-size: 20px;
     }
   }
 `
@@ -62,7 +64,8 @@ const Services = styled.section`
     color: #002434;
   }
   .text {
-    font-size: 13px;
+    font-size: 16px;
+    line-height: 150%;
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
@@ -84,7 +87,7 @@ const Grid = styled.div`
 export default withSiteData(() => (
   <div>
     <Head>
-      <title>iPhone Reparatur Berlin ● iPhone, Smartphone, Tablet & Laptop Reparatur in Berlin</title>
+      <title>iPhone Reparatur Berlin ● Express mobile iPhone Reparatur </title>
     </Head>
     <HeroBanner>
       <div className="text">
@@ -94,18 +97,18 @@ export default withSiteData(() => (
     </HeroBanner>
     <Services>
     <div className="text">
-    Die Corona-Pandemie hat gezeigt: Es geht viel mehr, als alle dachten. <br></br>Mobile Arbeit ist plötzlich Alltag geworden und hat das Leben einfacher gemacht.<br></br><br></br> Wir haben tolle Feedbacke gegenüber unserem mobilen Service während des ersten Lockdowns bekommen, sodass wir ab jetzt ausschließlich mobile arbeiten werden.<br></br><u>Bitte buchen Sie einen Termin - wir holen Ihr Gerät kontaklos ab.</u><br></br> Meisten Reparaturen werden wie gewöhnt innerhalb von 30 Min. in unserer Autowerkstatt erledigt, danach wird Ihr Gerät repariert (selbstverständlich desinfiziert) und zurück gebracht.
+    Die Corona-Pandemie hat gezeigt: Es geht viel mehr, als alle dachten. <br></br>Mobile Arbeit ist plötzlich Alltag geworden und hat das Leben einfacher gemacht. Wir bedanken uns sehr für die zahlreichen Feedbacks von unseren Kunden, die unsere neue mobile iPhone Reparatur wertgeschätzt haben. Sie haben uns ermutigt den mobilen Service weiter zu entwickeln. <br></br> Jetzt bieten wir ausschließlich einen mobilen Reparatur Service an. <br></br>Es macht uns eindeutig mehr Spaß und bringt unseren Kunden viel mehr Nutzen.<h2><a target="_blank" href="https://app.cituro.com/booking/isett">Bitte buchen Sie einen Termin - wir holen Ihr Gerät kontaklos ab.</a></h2> Meisten Reparaturen werden wie gewöhnt innerhalb von <u>30 Min.</u> in unserer mobilen Werkstatt erledigt. Nach der Reparatur wird Ihr Gerät repariert, selbstverständlich desinfiziert und zurück gebracht. Für Fragen stehen wir gerne unter <a href="tel:+493088925666">030 88925666</a> zur Verfügung!<br></br>Beste Grüße, Ihr iSett Team
     </div>
 
       <Grid>
         <div className="service">
-          <img src={SmartphoneIcon} alt="" />
+          <a href="https://isett.de/iphone_reparatur_preise"><img src={SmartphoneIcon} alt="" /></a>
               </div>
         <div className="service">
-          <img src={WavesIcon} alt="" />
+          <a href="https://isett.de/kontakt"><img src={WavesIcon} alt="" /></a>
                 </div>
         <div className="service">
-          <img src={TimeIcon} alt="" />
+          <a target="_blank" href="https://app.cituro.com/booking/isett"><img src={TimeIcon} alt="" /></a>
                 </div>
       </Grid>
     </Services>
