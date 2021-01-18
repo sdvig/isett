@@ -153,6 +153,8 @@ export default {
           <Body>
             {children}
             <script src="//code.tidio.co/8tyo8izjyzbgibnjh4evawuj2iwbqbhz.js"></script>
+            <script type="text/javascript" src="//www.privacypolicies.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
+            <noscript>Cookie Consent by <a href="https://www.PrivacyPolicies.com/cookie-consent/" rel="nofollow noopener">PrivacyPolicies.com</a></noscript>
           </Body>
         </Html>
       )

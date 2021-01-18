@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Router, Link } from 'react-static'
 import styled, { injectGlobal } from 'styled-components'
 import { hot } from 'react-hot-loader'
@@ -103,53 +103,73 @@ const AppStyles = styled.div`
   }
 `
 
-const App = () => (
-  <Router>
-    <Analytics id="UA-85012381-1">
-      <AppStyles>
-        <Header />
-        <div className="content">
-          <Routes />
-        </div>
-          <div className="cituroContainer" />
-        <footer>
-          <div className="grid">
-            <section>
-              <div className="filials">
+class App extends Component {
+  componentDidMount () {
+    if (typeof window !== 'undefined') {
+      // browser-only code
+      document.addEventListener('DOMContentLoaded', () => {
+        window.cookieconsent.run({
+          notice_banner_type: 'headline',
+          consent_type: 'express',
+          palette: 'dark',
+          language: 'de',
+          website_name: 'www.isett.de',
+          cookies_policy_url: 'https://isett.de/datenschutz',
+        })
+      })
+    }
+  }
 
-                <h2>Wir arbeiten mobile!</h2>
-                <p>Bitte buchen Sie hier rechts <a href="https://app.cituro.com/booking/isett" target="_blank" rel="noopener noreferrer">einen Termin</a><br /> Wir holen Ihr Gerät kontaktlos ab!<br />Reparaturen wie gewöhnt in 30 Min.</p>
-              </div>
-              <div className="hours">
-                <h2>Öffnungszeiten</h2>
-                <p>Mo-Fr: 10:30 - 21.00<br />Sa: 11:00 - 21:00<br />+ nach Vereinbarung</p>
-              </div>
-              <div className="socialnetworks">
-                <h2>Social Networks</h2>
-                <p>
-                  <a href="https://www.facebook.com/isetthandyreparatur/" target="_blank" rel="noopener noreferrer">Facebook</a><br />
-                  <a href="https://www.instagram.com/isett_handyreparatur/" target="_blank" rel="noopener noreferrer">Instagram</a><br />
-                  <a href="https://local.google.com/place?id=17027963568296192571&use=srp&ibp=gwp;0,7" target="_blank" rel="noopener noreferrer">Google Bewertungen</a>
-                </p>
-              </div>
-            </section>
-          </div>
-          <p className="note">Alle Preise inkl. 19% MwSt, zzgl. Versand</p>
-          <div className="footer-bottom">
-            <div className="grid">
-              <nav>
-                <Link to="/impressum">Impressum</Link>
-                <Link to="/agb">AGB</Link>
-                <Link to="/datenschutz">Datenschutz</Link>
-                <Link to="/versand">Versand</Link>
-              </nav>
-              <div className="copy">© 2016 - 2021 iSett inh. Evelina Chayka. All Rights Reserved.</div>
+  render () {
+    return (
+      <Router>
+        <Analytics id="UA-85012381-1">
+          <AppStyles>
+            <Header />
+            <div className="content">
+              <Routes />
             </div>
-          </div>
-        </footer>
-      </AppStyles>
-    </Analytics>
-  </Router>
-)
+            <div className="cituroContainer" />
+            <footer>
+              <div className="grid">
+                <section>
+                  <div className="filials">
+
+                    <h2>Wir arbeiten mobile!</h2>
+                    <p>Bitte buchen Sie hier rechts <a href="https://app.cituro.com/booking/isett" target="_blank" rel="noopener noreferrer">einen Termin</a><br /> Wir holen Ihr Gerät kontaktlos ab!<br />Reparaturen wie gewöhnt in 30 Min.</p>
+                  </div>
+                  <div className="hours">
+                    <h2>Öffnungszeiten</h2>
+                    <p>Mo-Fr: 10:30 - 21.00<br />Sa: 11:00 - 21:00<br />+ nach Vereinbarung</p>
+                  </div>
+                  <div className="socialnetworks">
+                    <h2>Social Networks</h2>
+                    <p>
+                      <a href="https://www.facebook.com/isetthandyreparatur/" target="_blank" rel="noopener noreferrer">Facebook</a><br />
+                      <a href="https://www.instagram.com/isett_handyreparatur/" target="_blank" rel="noopener noreferrer">Instagram</a><br />
+                      <a href="https://local.google.com/place?id=17027963568296192571&use=srp&ibp=gwp;0,7" target="_blank" rel="noopener noreferrer">Google Bewertungen</a>
+                    </p>
+                  </div>
+                </section>
+              </div>
+              <p className="note">Alle Preise inkl. 19% MwSt, zzgl. Versand</p>
+              <div className="footer-bottom">
+                <div className="grid">
+                  <nav>
+                    <Link to="/impressum">Impressum</Link>
+                    <Link to="/agb">AGB</Link>
+                    <Link to="/datenschutz">Datenschutz</Link>
+                    <Link to="/versand">Versand</Link>
+                  </nav>
+                  <div className="copy">© 2016 - 2021 iSett inh. Evelina Chayka. All Rights Reserved.</div>
+                </div>
+              </div>
+            </footer>
+          </AppStyles>
+        </Analytics>
+      </Router>
+    )
+  }
+}
 
 export default hot(module)(App)
