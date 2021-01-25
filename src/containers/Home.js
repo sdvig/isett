@@ -116,5 +116,4 @@ export default withSiteData(() => (
 
     </Services>
   </div>
-  <div id="cituro-rating-snippet"><script src="https://app.cituro.com/ratings/isett/snippet" async></script></div>
 ))
