@@ -3,7 +3,6 @@ title: iPhone 4 Reparatur Preise
 slug: iphone-4-reparatur-preise
 img: phones/5c.jpg
 ---
-<div id="cituro-rating-snippet"><script src="https://app.cituro.com/ratings/isett/snippet" async></script></div>
 
 
 - Fehlerdiagnose - 39 €*
