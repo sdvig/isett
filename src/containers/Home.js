@@ -111,6 +111,9 @@ export default withSiteData(() => (
           <a target="_blank" href="https://app.cituro.com/booking/isett"><img src={TimeIcon} alt="" /></a>
                 </div>
       </Grid>
+      
+      <div id="cituro-rating-snippet"><script src="https://app.cituro.com/ratings/isett/snippet" async></script></div>
+
     </Services>
   </div>
 ))

@@ -153,7 +153,8 @@ class App extends Component {
                 </section>
               </div>
               <p className="note">Alle Preise inkl. 19% MwSt, zzgl. Versand</p>
-              <div className="footer-bottom">
+              <div id="cituro-rating-snippet" data-orientation="vertical" data-text-color="#fbf4f4"><script src="https://app.cituro.com/ratings/isett/snippet" async></script></div>
+                <div className="footer-bottom">
                 <div className="grid">
                   <nav>
                     <Link to="/impressum">Impressum</Link>
